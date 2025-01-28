@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@arbetsmiljo/diarium": "^0.0.10"
+  },
+  "name": "@arbetsmiljo/year",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@arbetsmiljo/diarium"
+    ]
+  },
+  "type": "module",
+  "version": "0.0.0"
+}
