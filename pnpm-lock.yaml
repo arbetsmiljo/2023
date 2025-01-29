@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@arbetsmiljo/diarium':
-        specifier: ^0.0.10
-        version: 0.0.10(encoding@0.1.13)
+        specifier: ^0.0.16
+        version: 0.0.16(encoding@0.1.13)
 
 packages:
 
-  '@arbetsmiljo/diarium@0.0.10':
-    resolution: {integrity: sha512-ZF7sl35T9vQKpER2Fe8iKpNJuaug8qa7iXgN7G3+EU8NPJIcfesBFQ8nMNE/yEitqwcIcXpSqhfEB4gpG7CDrg==}
+  '@arbetsmiljo/diarium@0.0.16':
+    resolution: {integrity: sha512-s2IKoTcFxN6/dGuPQO0ZzWRWhAb93hL9uYwv2Hhzd6/eZDGZsXmG/EKB4wakyF2xC9s3ocuyqGdy1a2GSyFYNQ==}
     hasBin: true
 
   '@asamuzakjp/css-color@2.8.3':
@@ -748,7 +748,7 @@ packages:
 
 snapshots:
 
-  '@arbetsmiljo/diarium@0.0.10(encoding@0.1.13)':
+  '@arbetsmiljo/diarium@0.0.16(encoding@0.1.13)':
     dependencies:
       commander: 13.1.0
       cross-fetch: 4.1.0(encoding@0.1.13)
