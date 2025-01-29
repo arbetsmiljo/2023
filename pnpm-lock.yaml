@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@arbetsmiljo/diarium':
-        specifier: ^0.0.16
-        version: 0.0.16(encoding@0.1.13)
+        specifier: ^0.0.18
+        version: 0.0.18(encoding@0.1.13)
 
 packages:
 
-  '@arbetsmiljo/diarium@0.0.16':
-    resolution: {integrity: sha512-s2IKoTcFxN6/dGuPQO0ZzWRWhAb93hL9uYwv2Hhzd6/eZDGZsXmG/EKB4wakyF2xC9s3ocuyqGdy1a2GSyFYNQ==}
+  '@arbetsmiljo/diarium@0.0.18':
+    resolution: {integrity: sha512-5SKAPOlKTop6x+T08X8DH0k8EOEkLD4GKMh36V22QuBmdXsumFcjiHm9zOJDBzhEFFu95zao+mf9Q0d3AFY3Sg==}
     hasBin: true
 
   '@asamuzakjp/css-color@2.8.3':
@@ -186,6 +186,9 @@ packages:
   data-urls@5.0.0:
     resolution: {integrity: sha512-ZYP5VBHshaDAiVZxjbRVcFJpc+4xGgT0bK3vzy1HLN8jTO975HEbuYzZJcHoQEY5K1a0z8YayJkyVETa08eNTg==}
     engines: {node: '>=18'}
+
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   debug@4.4.0:
     resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
@@ -748,10 +751,11 @@ packages:
 
 snapshots:
 
-  '@arbetsmiljo/diarium@0.0.16(encoding@0.1.13)':
+  '@arbetsmiljo/diarium@0.0.18(encoding@0.1.13)':
     dependencies:
       commander: 13.1.0
       cross-fetch: 4.1.0(encoding@0.1.13)
+      date-fns: 4.1.0
       jsdom: 26.0.0
       lodash: 4.17.21
       ora-classic: 5.4.2
@@ -957,6 +961,8 @@ snapshots:
     dependencies:
       whatwg-mimetype: 4.0.0
       whatwg-url: 14.1.0
+
+  date-fns@4.1.0: {}
 
   debug@4.4.0:
     dependencies:
