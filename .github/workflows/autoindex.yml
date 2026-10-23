@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - uses: arbetsmiljo/autoindex@v57
+      - uses: arbetsmiljo/autoindex@v58
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           year: ${{ github.event.repository.name }}
