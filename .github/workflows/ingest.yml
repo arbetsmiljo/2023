@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: arbetsmiljo/ingest@v5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          year: ${{ github.event.repository.name }}
